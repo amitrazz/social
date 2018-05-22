@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top_bar{
+    height: 50px;
+    width: 100%;
+    min-width: 1050px;
+    margin: 0 0 10px 0;
+    display: inline-block;
+    background-color:white;
+    box-shadow: 2px 2px 2px 2px white;
+    opacity: 0.9;
+    color: white;
+    border-bottom: 5px solid darkblue;
+    border-top-right-radius: 2% solid darkblue;
+    border-top-left-radius: 2% solid darkblue;
+    position: fixed;
+    z-index: 10;
+}
+.logo a {
+    margin-left: 30px;
+    font-size: 150%;
+    position: relative;
+    line-height: 17px;
+    top: 10px;
+    text-shadow: blueviolet 0.5px 0.5px 0;
+
+}
+a:hover{
+    text-decoration: none;
+}
+nav{
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 0 0  0 15px;
+}
+nav a{
+    position: relative;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover{
+    border-bottom: 5px solid black;
+}
+.wrapper{
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    padding: 0 10px;
+    width: 75%;
+    min-width: 950px;
+}
+.column{
+    background-color: white;
+
+    border-radius: 2px;
+    box-shadow: grey 0.5px 0.5px 0;
+    z-index: -1;
+}
+.user_details{
+    width: 250px;
+    float: left;
+    margin-bottom: 25px;
+}
+.user_details img{
+    height: 125px;
+    border-radius: 5px ;
+    margin-right: 15px;
+}
+.user_details_left_right{
+    width:125px;
+    display: inline-block;
+    position: absolute;
+}
+.main_column{
+    float: right;
+    width: 71%;
+    z-index: -1;
+    min-height: 160px;
+}
+.post_form{
+    width: 100%;
+}
+.post_form textarea{
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 1px solid gray
+    font-size:12px;
+}
+textarea:focus{
+    outline: 0;
+}
+.post_form input[type="submit"]{
+    width: 10%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    border-color: cadetblue;
+    margin:0;
+    outline: 0;
+    color: aqua;
+    box-shadow: grey 0.5px 0.5px 0;
+    position: absolute;
+    top: 10px;
+    overflow: hidden;
+}
+.status_post{
+    width: 96%;
+    font-size: 15px;
+    padding: 0px 5px;
+    min-height: 70px;
+}
+.post_profile_pic{
+    float: left;
+    margin-right: 10px;
+}
+.post_profile_pic img{
+    border-radius: 30px;
+}
